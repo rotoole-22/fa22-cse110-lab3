@@ -52,41 +52,41 @@
     </section>
     <hr>
     <main>
-        <span>
+        <div>
             <em>Agenda Item: Finishing Previous Meeting Content</em>
             <p>
                 Discussed and resolved scheduling conflicts and finalized roles for group members.
             </p>
-        </span>
+        </div>
         <hr>
-        <span>
+        <div>
             <em>Agenda Item: Project Overview</em>
             <p>
                 Discussed the requirements for the project.
             </p>
             <img src="chart.jpeg" height="320" width="480" alt="Sample Pie Chart">
-        </span>
+        </div>
         <hr>
-        <span>
+        <div>
             <em>Agenda Item: Brainstorming</em>
             <p>
                 Discussed potential software solutions for the project.
             </p>
-        </span>
+        </div>
         <hr>
-        <span>
+        <div>
             <em>Agenda Item: Initial Documentation</em>
             <p>
                 Created rough documentation describing the chosen solution.
             </p>
-        </span>
+        </div>
         <hr>
-        <span>
+        <div>
             <em>Agenda Item: Future Plans</em>
             <p>
                 Discussed future plans for finishing the solution.
             </p>
-        </span>
+        </div>
     </main>
     <hr>
     <footer>
@@ -114,11 +114,13 @@
             <input type="radio" name="Only one"><label>A</label><br>
             <input type="radio" name="Only one"><label>B</label><br>
             <input type="text" list="Topics"><label>Topic</label>
-            <datalist id="Topics">
-                <option value="Project">
-                <option value="Roles">
-                <option value="Research">
-            </datalist>
+            <span>
+                <datalist id="Topics">
+                    <option value="Project">
+                    <option value="Roles">
+                    <option value="Research">
+                </datalist>
+            </span>
             <br>
             <input type="date"><label>Date</label><br>
             <textarea rows="5" cols="50">Give feedback here...</textarea><br>
