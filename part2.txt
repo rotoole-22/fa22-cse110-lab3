@@ -5,9 +5,9 @@ Fill in the passphrases here.
 4: 
 5: SvelteBeatsReact
 6: ThisIsJS
-7: 
+7: YouFoundMe
 8: coolcoolcool
 9: 2020sucked
-10: 
+10: listenToTheBlackKeys
 11: a11yComesFirst
 12: iLoveWebDev
